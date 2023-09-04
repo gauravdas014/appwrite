@@ -643,7 +643,7 @@ return [
     ],
     Exception::ROUTER_DOMAIN_NOT_CONFIGURED => [
         'name' => Exception::ROUTER_DOMAIN_NOT_CONFIGURED,
-        'description' => 'Domain environment variables not configured. Please configure domain environment variables before using Appwrite outside of localhost.',
+        'description' => '_APP_DOMAIN, _APP_DOMAIN_TARGET, and _APP_DOMAIN_FUNCTIONS environment variables have not been configured. Please configure the domain environment variables before accessing the Appwrite Console via anything other than localhost.',
         'code' => 500,
     ],
     Exception::RULE_RESOURCE_NOT_FOUND => [
